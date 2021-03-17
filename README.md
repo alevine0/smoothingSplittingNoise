@@ -31,7 +31,7 @@ Note that for ImageNet training and testing, the directories where ImageNet file
 Pretrained models and certificate data for CIFAR-10 are included in checkpoints directory. Certificate data for ImageNet is also included here (although checkpoints are not, due to GitHub space constraints.)
 
 
-+++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++
 
 For the denoiser experiments in Appendix E, we used the denoising implementation from (Salman et al. 2020) available at https://github.com/microsoft/denoised-smoothing. This package is forked in the "denoised-smoothing" directory. We have added options for training under uniform  SSN, and DSSN noise. Specifically, denoised-smoothing/train_denoiser.py now takes a --noise_type flag, which can be set to 'uniform', 'split' (Independent SSN) or 'split_derandomized' (DSSN), as well as a --seed flag (for DSSN). Additionally the 'cifar_wrn40' classifier architecture has been added. We trained the 'clean' base classifier as a WideResNet-40 using otherwise standard arguments for this package (as described in Salman et al. 2020, Section A.2), and likewise trained denoisers using standard arguments.
 
