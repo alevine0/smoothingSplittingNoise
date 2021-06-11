@@ -1,5 +1,5 @@
 # Improved, Deterministic Smoothing for L_1 Certified Robustness
-Code for the paper "Improved, Deterministic Smoothing for L_1 Certified Robustness" by Alexander Levine and Soheil Feizi. 
+Code for the paper "Improved, Deterministic Smoothing for L_1 Certified Robustness" (Preprint: https://arxiv.org/abs/2103.10834) by Alexander Levine and Soheil Feizi. 
 
 Most of the code is in the src directory, which is a fork of the code for (Yang et al. 2020) available at https://github.com/tonyduan/rs4a. Instructions for installing dependencies are reproduced here:
 
